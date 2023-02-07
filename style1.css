@@ -1,0 +1,495 @@
+
+/* Common Styling Element */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+/* ---------------------- */
+
+
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url("./images/background/1520.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.logo {
+    width: 10%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 30px;
+}
+
+/* for browsing menu */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+    /* transform: scale(1.2); */
+}
+
+nav ul li a:hover {
+    color: rgb(109, 226, 222);
+    transition: 0.4s;
+    line-height: 50px;
+    ;
+}
+
+
+.content {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.content .slogan {
+    color: white;
+    font-size: 60px;
+    margin: 0px 0px 10px 0px;
+}
+
+.content span {
+    color: rgb(109, 226, 222);
+}
+
+
+.content .description {
+    width: 50%;
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-left: 10px;
+    line-height: 35px;
+}
+
+.donate form {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-left: 230px;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+
+.donate input:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+    border: 2px solid white;
+    color: white;
+}
+
+
+/* ============================================================================= */
+
+
+/* ----------------------ABOUT US----------------------------------- */
+
+#about-us {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(59, 59, 57);
+}
+
+#about-us .heading h3 {
+    color: rgb(109, 226, 222);
+    font-size: 50px;
+    width: 400px;
+    text-align: center;
+    margin: auto auto;
+    padding-top: 40px;
+}
+
+#about-us .description-1 p {
+    width: 1000px;
+    text-align: center;
+    justify-content: center;
+    margin: auto auto;
+    line-height: 30px;
+    font-size: 18px;
+    padding-top: 40px;
+    letter-spacing: 2px;
+    color: white;
+} 
+
+#about-us .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+
+#about-us .card {
+    height: 300px;
+    width: 380px;
+    padding: 20px 35px;
+    background-color: rgb(103, 109, 107);
+    border-radius: 10px;
+    margin-bottom: 170px;
+    margin-left: 40px;
+    /* margin-bottom: 30px; */
+    position: relative;
+    text-align: center;
+}
+
+#about-us .card h5 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#about-us .card h5 span {
+    color: rgb(109, 226, 222);
+}
+
+#about-us .card h5 span:hover {
+    color: rgb(36, 160, 156);
+    cursor: pointer;
+}
+
+#about-us .card p {
+    color: white;
+    line-height: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.card p .button {
+    text-decoration: none;
+    border: 2px solid rgb(109, 226, 222);
+    color: rgb(109, 226, 222);
+    font-weight: bolder;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.card p .button:hover {
+    color: black;
+    background-color: rgb(109, 226, 222);
+    transform: scale(1.2);
+}
+
+/* ============================================================= */
+
+/* ---------------------PROGRAMS------------------------- */
+
+#programs {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(98, 97, 97);
+}
+
+#programs .heading h3 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    width: 400px;
+    text-align: center;
+    margin: auto auto;
+    padding-top: 30px;
+}
+
+/* #programs .container {
+    height: 100vh;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+} */
+
+#programs .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 660px;
+    
+}
+
+#programs .card {
+    height: 500px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px;
+    padding-bottom: 40px;
+}
+
+#programs .card img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.card .info {
+    text-align: center;
+    padding-top: 20px ;
+    line-height: 30px;
+    color: white;
+
+}
+
+.card .info h3 {
+    font-size: 25px;
+    
+}
+
+.card .info h3:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+    color:  rgb(109, 226, 222);
+}
+
+.card .info h5 {
+    font-size: 16px;
+}
+
+.card .info h5 span {
+    color: rgb(109, 226, 222);
+}
+
+#programs .card input {
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 13px;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#programs .card input:hover {
+    border: 2px solid black;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+/* ================================================== */
+
+/* ---------------EDUCATION------------------ */
+
+#education {
+    height: 100vh;
+    width: 100%;
+    background-image: url("./images/education/yannis-h-uaPaEM7MiQQ-unsplash\ \(2\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#education .heading {
+    color: rgb(255, 255, 255);
+    font-size: 54px;
+    width: 400px;
+    text-align: center;
+    margin: auto auto;
+    padding-top: 50px
+}
+
+#education .container {
+    position: flex;
+    background-color: rgba(0, 0, 0, 0.793);
+    color: white;
+    width: 800px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 90px;
+}
+
+#education .container h4 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 40px ;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+#education .container h4 span {
+    color: rgb(109, 226, 222);
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+#education .container h4 span:hover {
+    background-color: rgb(109, 226, 222);
+    color: black;
+    font-weight: bold;
+}
+
+#education .container p {
+    width: 700px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-left: 14%;
+    font-size: 18px ;
+    color: rgb(255, 255, 255);   
+}
+
+#education .container input {
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 330px;
+    margin-top: 40px;
+    color: rgb(109, 226, 222);
+    border: 2px solid rgb(109, 226, 222);
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+}   
+
+#education .container input:hover {
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: rgb(109, 226, 222);
+    cursor: pointer;
+    font-weight: bolder;
+}   
+
+/* ================================================================ */
+
+/* --------------GALLERY SECTION-------------------------- */
+
+#gallery {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(53, 55, 55);
+    padding-top: 7%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.grid {
+    padding-top: 30px;
+    display: grid;
+    width: 100%;
+    height: 570px;
+    background-color: rgb(177, 126, 224);
+    /* grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px; */
+
+    /* shortcut to add number of rows and columns */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.grid .items {
+    /* height: 50px;
+    width: 50px; */
+    background-color: blue;
+}
+
+.grid .item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grid .item2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.grid .item4 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+/* ===================================================================== */
+
+/* ------------ Join-Us Section -------------------------- */
+
+#join-us {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/join-us/ramin-talebi-u_b0jWnkgM0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#join-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#join-us form {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.426);
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+#join-us h4 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 500px;
+}
+
+#join-us input {
+    width: 300px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.237);
+    border: none;
+    color: white;
+    padding-left: 6px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    padding-left: 4px;
+    font-weight: lighter;
+}
+
+#join-us form #button {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.59);
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#join-us form #button:hover {
+    background-color: rgba(111, 231, 233, 0.484);
+    color: black;
+}
+
+
