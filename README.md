@@ -5,4 +5,3 @@ This is "Charity Website" which accepts donation from the user.
 Also the website pages features various programs, about-us and join-us section.
 
 
-[![An image of @ghogareameya7's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/ghogareameya7)](https://holopin.io/@ghogareameya7)
